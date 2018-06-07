@@ -41,8 +41,9 @@ Note 'Boxes'
 NB. 9!:6 y
 NB. 9!:7 y    Box-Drawing Characters.
 NB.           The eleven characters used to draw boxes
-NB.           (9!:7) +++++++++|-
-NB.           (9!:7) ┌┬┐├┼┤└┴┘│─
+
+(9!:7) +++++++++|-
+(9!:7) ┌┬┐├┼┤└┴┘│─
 )
 
 Note 'CSV'
@@ -54,6 +55,8 @@ readtsv=:readdsv NB. It's the default, go figure.
 )
 
 Note 'Statistical verbs'
+
+NB. From http://code.jsoftware.com/wiki/User:Devon_McCormick/myStats.ijs
 
 ntilebps=: 4 : 0
 NB.* ntilebps: return breakpoint values of x-tiles of y; e.g. 4 ntilebps y
