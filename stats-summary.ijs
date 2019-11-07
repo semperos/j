@@ -11,7 +11,7 @@ quartiles=:4&cile
 
 summary=: monad define
 
-  nums=:y
+  nums=:/:~y
   NB. For each value in `nums`, indicate which quartile it falls into,
   NB. 0 as first through 3 as fourth.
   qidx=:quartiles nums
